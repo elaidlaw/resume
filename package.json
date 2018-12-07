@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "2018.12.7",
+  "description": "Cassidy Laidlaw's resume, rendered by React",
+  "main": "index.js",
+  "repository": "https://github.com/cassidylaidlaw/resume.git",
+  "author": "Cassidy Laidlaw <cassidy256@gmail.com>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "render": "babel-node ./index.js"
+  },
+  "dependencies": {
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@react-pdf/renderer": "^1.0.0",
+    "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "flow-bin": "^0.87.0"
+  }
+}
