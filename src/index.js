@@ -41,4 +41,4 @@ for(let arg of process.argv.slice(2)) {
   props[arg] = true;
 }
 ReactPDF.render(<Output {...props} />,
-  `${__dirname}/Cassidy Laidlaw resume.pdf`);
+  `./Cassidy Laidlaw resume.pdf`);

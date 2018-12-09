@@ -8,7 +8,7 @@
   "license": "none",
   "private": true,
   "scripts": {
-    "render": "babel-node ./index.js"
+    "render": "babel-node ./src/index.js"
   },
   "dependencies": {
     "@babel/node": "^7.2.0",
