@@ -347,7 +347,8 @@ export default function Resume(props: Props) {
 
 const styles = StyleSheet.create({
   page: {
-    padding: 30,
+    paddingHorizontal: 30,
+    paddingVertical: 20,
   },
   container: {
     flex: 1,
