@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flex: 2,
   },
   dates: {
-    ...theme.fonts.body.regular,
+    ...theme.fonts.detail.bold,
     textAlign: 'right',
     flex: 1,
   },

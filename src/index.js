@@ -20,6 +20,9 @@ Font.register(`${__dirname}/fonts/georgia/Georgia Regular.ttf`, {
 Font.register(`${__dirname}/fonts/georgia/Georgia Bold.ttf`, {
   family: 'Georgia Bold',
 });
+Font.register(`${__dirname}/fonts/LeagueGothic/LeagueGothic-Regular.ttf`, {
+  family: 'League Gothic',
+});
 
 const Output = (props: any) => (
   <Document
