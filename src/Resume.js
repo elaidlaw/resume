@@ -109,11 +109,12 @@ const SoftwareExperience = ({ long }: Props) => (
       title='Insider Threat Analysis Tool'
       subtitle='Center for Study of Terrorism and Responses to Terrorism'
       startDate='November 2016'
+      endDate='December 2018'
     >
-      <ListItem>Building a tool to analyze insider threats in airport cargo
+      <ListItem>Built a tool to analyze insider threats in airport cargo
         systems with a team of three other developers.</ListItem>
-      <ListItem>Implementing the user interface in JavaFX.</ListItem>
-      <ListItem>Meeting with and presenting tool to government officials in
+      <ListItem>Implemented the user interface in JavaFX.</ListItem>
+      <ListItem>Met with and presented tool to government officials in
         Department of Homeland Security, FBI, etc.</ListItem>
     </Experience>
     <Experience
