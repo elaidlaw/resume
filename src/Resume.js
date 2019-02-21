@@ -262,8 +262,11 @@ const Awards = ({ long }: Props) => (
       campus or public communities.”
     </Blurb>
     <Blurb title='Gemstone Honors Program Most Valuable Team Member'>
-      selected as the student who contributed most to my research team out of
-      all students in my honors program.
+      selected as the student who contributed most to his/her research team out
+      of all students in my honors program.
+    </Blurb>
+    <Blurb title='Banneker/Key Scholarship'>
+      the University of Maryland's most prestigious scholarship.
     </Blurb>
   </>
 );
