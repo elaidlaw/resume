@@ -29,6 +29,8 @@ const AIExperience = ({ long, ai }: Props) => (
         of human faces.</ListItem>
       <ListItem>Used deep learning to model the relationship between speech
         and facial motion.</ListItem>
+      <ListItem>Coauthored paper to be presented at CVPR, a leading computer
+        science conference.</ListItem>
     </Experience>
     <Experience
       title='Intern, Booz Allen Hamilton Inc: “Rumor Has It”'
@@ -60,7 +62,7 @@ const AIExperience = ({ long, ai }: Props) => (
       endDate='March 2016'
     >
       <ListItem>Researched differences in word connotation across languages
-        with Prof. Marine Carpuat at the University of Maryland.</ListItem>
+        with Prof. Marine Carpuat at the U. of Maryland.</ListItem>
       <ListItem>Worked with Google teraword n-grams and scraped news sites
         in multiple languages.</ListItem>
     </Experience>
@@ -95,13 +97,24 @@ const SoftwareExperience = ({ long }: Props) => (
   <>
     <SectionHeader text='Software Development Experience' />
     <Experience
+      title='Data Scientist and Web Developer, Builda.co'
+      startDate='November 2016'
+    >
+      <ListItem>Building an analysis pipeline for data from Fortune 500
+        companies using Apache Spark.</ListItem>
+      <ListItem>Created a web-based mentoring platform for entrepreneurs using
+        Django, Bootstrap, jQuery and APIs from LinkedIn and
+        Braintree.</ListItem>
+    </Experience>
+    <Experience
       title='App Developer, Why Weight?'
       startDate='March 2018'
     >
       <ListItem>Building an app to help clients of Why Weight, a weight loss
         and life coaching company.</ListItem>
-      <ListItem>Implemented features to let users track their weight, log food
-        and water intake, and message the company’s life coaches.</ListItem>
+      <ListItem>Implemented features to let users track their weight, connect
+        with Bluetooth scales, log food and water intake, and message the
+        company’s life coaches.</ListItem>
       <ListItem>Writing the app in React Native with a Django backend hosted
         in AWS.</ListItem>
     </Experience>
@@ -116,15 +129,6 @@ const SoftwareExperience = ({ long }: Props) => (
       <ListItem>Implemented the user interface in JavaFX.</ListItem>
       <ListItem>Met with and presented tool to government officials in
         Department of Homeland Security, FBI, etc.</ListItem>
-    </Experience>
-    <Experience
-      title='Web Developer, Builda.co'
-      startDate='November 2016'
-      endDate='August 2018'
-    >
-      <ListItem>Built a web-based mentoring platform for entrepreneurs using
-        Django, Bootstrap, and jQuery.</ListItem>
-      <ListItem>Used APIs from LinkedIn and Braintree.</ListItem>
     </Experience>
     {long &&
     <Experience
@@ -164,7 +168,8 @@ const SoftwareExperience = ({ long }: Props) => (
       title='Other Freelance Software Development Work'
       startDate='June 2014'
     >
-      <ListItem>Including mobile app and web development.</ListItem>
+      <ListItem>Including data science, mobile apps, and web
+        development.</ListItem>
     </Experience>}
   </>
 );
