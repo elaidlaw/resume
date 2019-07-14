@@ -8,6 +8,7 @@ import SectionHeader from './SectionHeader';
 import Experience from './Experience';
 import ListItem from './ListItem';
 import Blurb from './Blurb';
+import Publication from './Publication';
 
 type Props = {
   long?: boolean,
@@ -19,6 +20,18 @@ const AIExperience = ({ long, ai }: Props) => (
   <>
     <SectionHeader text='Data Science and Artificial Intelligence Experience' />
     <Experience
+      title='Research in Adversarial Robustness'
+      startDate='April 2018'
+    >
+      <ListItem>Developed a new framework for adversarial attacks using
+        a functional threat model.</ListItem>
+      <ListItem>Invented the ReColorAdv attack, which when combined with other
+        attacks leads to the strongest existing attack even after adversarial
+        training (paper under review).</ListItem>
+      <ListItem>Investigating surrogate loss functions for improving
+        adversarial robustness of neural networks.</ListItem>
+    </Experience>
+    <Experience
       title='Research at Max Planck Institute for Intelligent Systems'
       startDate='May 2017'
       endDate='January 2018'
@@ -29,7 +42,7 @@ const AIExperience = ({ long, ai }: Props) => (
         of human faces.</ListItem>
       <ListItem>Used deep learning to model the relationship between speech
         and facial motion.</ListItem>
-      <ListItem>Coauthored paper to be presented at CVPR, a leading computer
+      <ListItem>Coauthored paper presented at CVPR'19, a leading computer
         science conference.</ListItem>
     </Experience>
     <Experience
@@ -103,8 +116,8 @@ const SoftwareExperience = ({ long }: Props) => (
       <ListItem>Building an analysis pipeline for data from Fortune 500
         companies using Apache Spark.</ListItem>
       <ListItem>Created a web-based mentoring platform for entrepreneurs using
-        Django, Bootstrap, jQuery and APIs from LinkedIn and
-        Braintree.</ListItem>
+        Django, Bootstrap, jQuery and APIs from LinkedIn,
+        Braintree, and Office365.</ListItem>
     </Experience>
     <Experience
       title='App Developer, Why Weight?'
@@ -161,7 +174,8 @@ const SoftwareExperience = ({ long }: Props) => (
     </Experience>}
     {long &&
     <Blurb title={'Other websites I\'ve designed/built'}>
-      cs.brown.edu/people/bjm, pmbloch.com, builda.co, www.geteasybill.com
+      cs.brown.edu/people/bjm, pmbloch.com, builda.ai, www.geteasybill.com,
+      workstrive.com
     </Blurb>}
     {!long &&
     <Experience
@@ -276,6 +290,30 @@ const Awards = ({ long }: Props) => (
   </>
 );
 
+const Publications = () => (
+  <>
+    <SectionHeader text='Publications and Preprints' />
+    <Publication
+      title='Functional Adversarial Attacks'
+      authors={['Cassidy Laidlaw', 'Soheil Feizi']}
+      venue='arXiv preprint'
+      url='https://arxiv.org/abs/1906.00001'
+    />
+    <Publication
+      title='Capture, Learning, and Synthesis of 3D Speaking Styles'
+      authors={[
+        'Daniel Cudeiro*',
+        'Timo Bolkart*',
+        'Cassidy Laidlaw',
+        'Anurag Ranjan',
+        'Michael J. Black',
+      ]}
+      venue='CVPR 2019'
+      url='https://voca.is.tue.mpg.de/'
+    />
+  </>
+);
+
 const Courses = () => (
   <>
     <SectionHeader text='Coursework' />
@@ -341,11 +379,13 @@ export default function Resume(props: Props) {
       {ai ?
         <>
           <AIExperience {...props} />
+          <Publications {...props} />
           <SoftwareExperience {...props} />
         </> :
         <>
           <SoftwareExperience {...props} />
           <AIExperience {...props} />
+          <Publications {...props} />
         </>}
       {long && <OtherExperience {...props} />}
       <Skills {...props} />
