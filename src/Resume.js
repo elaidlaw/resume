@@ -292,7 +292,7 @@ const Awards = ({ long }: Props) => (
 
 const Publications = () => (
   <>
-    <SectionHeader text='Publications and Preprints' />
+    <SectionHeader text='Publications' />
     <Publication
       title='Functional Adversarial Attacks'
       authors={['Cassidy Laidlaw', 'Soheil Feizi']}
