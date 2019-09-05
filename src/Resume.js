@@ -27,7 +27,7 @@ const AIExperience = ({ long, ai }: Props) => (
         a functional threat model.</ListItem>
       <ListItem>Invented the ReColorAdv attack, which when combined with other
         attacks leads to the strongest existing attack even after adversarial
-        training (paper under review).</ListItem>
+        training. Paper accepted to NeurIPS 2019.</ListItem>
       <ListItem>Investigating surrogate loss functions for improving
         adversarial robustness of neural networks.</ListItem>
     </Experience>
