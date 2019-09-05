@@ -296,7 +296,7 @@ const Publications = () => (
     <Publication
       title='Functional Adversarial Attacks'
       authors={['Cassidy Laidlaw', 'Soheil Feizi']}
-      venue='arXiv preprint'
+      venue='NeurIPS 2019'
       url='https://arxiv.org/abs/1906.00001'
     />
     <Publication
