@@ -21,7 +21,7 @@ const AIExperience = ({ long, ai }: Props) => (
     <SectionHeader text='Data Science and Artificial Intelligence Experience' />
     <Experience
       title='Research in Adversarial Robustness'
-      startDate='April 2018'
+      startDate='April 2019'
     >
       <ListItem>Developed a new framework for adversarial attacks using
         a functional threat model.</ListItem>
