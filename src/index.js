@@ -23,12 +23,15 @@ Font.register(`${__dirname}/fonts/georgia/Georgia Bold.ttf`, {
 Font.register(`${__dirname}/fonts/LeagueGothic/LeagueGothic-Regular.ttf`, {
   family: 'League Gothic',
 });
+Font.register(`${__dirname}/fonts/Raleway/Raleway-SemiBold.ttf`, {
+  family: 'Raleway Semibold',
+});
 
 const Output = (props: any) => (
   <Document
-    author='Cassidy Laidlaw'
+    author='Eliot Laidlaw'
     keywords=''
-    subject='The resume of Cassidy Laidlaw'
+    subject='The resume of Eliot Laidlaw'
     title='Resume'
   >
     <Resume {...props} />
@@ -44,4 +47,4 @@ for(let arg of process.argv.slice(2)) {
   props[arg] = true;
 }
 ReactPDF.render(<Output {...props} />,
-  `./Cassidy Laidlaw resume.pdf`);
+  `./Eliot Laidlaw resume.pdf`);

@@ -56,7 +56,7 @@ export default function Header(props: Props) {
     <View style={styles.container}>
       <View style={styles.nameContainer}>
         <Image src={logoDark} style={styles.logo} />
-        <Text style={styles.name}>{props.name.toUpperCase()}</Text>
+        <Text style={styles.name}>{props.name}</Text>
       </View>
       <View style={styles.detailsContainer}>
         <Text style={styles.details}>{props.email}</Text>

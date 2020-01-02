@@ -5,14 +5,18 @@ const palette = {
   accent1: '#1f3749',
   accent2: '#a56413',
   text: '#333',
-  headerText: '#787A7B',
+  headerText: '#101060',
 }
 
 export default {
   palette,
   fonts: {
     header: {
-      bold: { fontSize: 24, fontFamily: 'League Gothic',
+      bold: { fontSize: 24, fontFamily: 'Raleway Semibold',
+        color: palette.headerText },
+    },
+    h2: {
+      bold: { fontSize: 24, fontFamily: 'Open Sans Bold',
         color: palette.headerText },
     },
     body: {
