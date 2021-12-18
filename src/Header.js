@@ -5,13 +5,13 @@ import { Link, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
 
 import theme from './theme';
 
-const nameSize = 1.3;
+const nameSize = 1;
 
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'flex-end',
-    paddingBottom: theme.spacing.unit * 2,
+    paddingBottom: theme.spacing.unit * 1.5,
     borderBottomColor: '#ddd',
     borderBottomWidth: theme.spacing.unit,
     borderBottomStyle: 'solid',
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   name: {
     ...theme.fonts.header.bold,
-    fontSize: 24 * nameSize,
+    fontSize: 22 * nameSize,
   },
   logo: {
     height: 18 * nameSize,
@@ -55,13 +55,11 @@ export default function Header(props: Props) {
   return (
     <View style={styles.container}>
       <View style={styles.nameContainer}>
-        <Image src={logoDark} style={styles.logo} />
         <Text style={styles.name}>{props.name}</Text>
       </View>
       <View style={styles.detailsContainer}>
         <Text style={styles.details}>{props.email}</Text>
-        {!props.excludePersonalInformation &&
-          <Text style={styles.details}>{props.phoneNumber}</Text>}
+        <Text style={styles.details}>{props.phoneNumber}</Text>
         <Text style={styles.details}>{props.website}</Text>
         {!props.excludePersonalInformation &&
           <Text style={styles.details}>{props.address}</Text>}

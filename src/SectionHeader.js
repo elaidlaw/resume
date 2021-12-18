@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: '#ddd',
     borderBottomStyle: 'solid',
-    marginTop: theme.spacing.unit * 3,
-    paddingBottom: 5,
+    marginTop: theme.spacing.unit * 1,
+    paddingBottom: 3,
     marginBottom: theme.spacing.unit * 0,
   },
   text: {

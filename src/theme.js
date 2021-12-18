@@ -12,27 +12,27 @@ export default {
   palette,
   fonts: {
     header: {
-      bold: { fontSize: 24, fontFamily: 'Raleway Semibold',
+      bold: { fontSize: 20, fontFamily: 'Raleway Semibold',
         color: palette.headerText },
     },
     h2: {
-      bold: { fontSize: 24, fontFamily: 'Open Sans Bold',
+      bold: { fontSize: 15, fontFamily: 'Open Sans Bold',
         color: palette.headerText },
     },
     body: {
-      regular: { fontSize: 12, fontFamily: 'Open Sans',
+      regular: { fontSize: 11, fontFamily: 'Open Sans',
         color: palette.accent1 },
-      bold: { fontSize: 12, fontFamily: 'Open Sans Bold',
+      bold: { fontSize: 11, fontFamily: 'Open Sans Bold',
         color: palette.accent1 },
     },
     detail: {
-      regular: { fontSize: 10, fontFamily: 'Open Sans',
+      regular: { fontSize: 9.5, fontFamily: 'Open Sans',
         color: palette.text },
-      bold: { fontSize: 10, fontFamily: 'Open Sans Bold',
+      bold: { fontSize: 9.5, fontFamily: 'Open Sans Bold',
         color: palette.accent1 },
     },
   },
   spacing: {
-    unit: 5,
+    unit: 4,
   },
 };

@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   header: {
     flexDirection: 'row',
-    marginVertical: theme.spacing.unit,
+    marginVertical: theme.spacing.unit * 0.75,
   },
   title: {
     ...theme.fonts.body.bold,
