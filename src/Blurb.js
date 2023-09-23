@@ -14,7 +14,7 @@ export default function Experience(props: Props) {
   return (
     <View style={styles.container} wrap={false}>
       <Text style={theme.fonts.detail.regular}>
-        <Text style={theme.fonts.body.bold}>{props.title}: </Text>
+        {props.title && <Text style={theme.fonts.body.bold}>{props.title}: </Text>}
         {props.children}
       </Text>
     </View>

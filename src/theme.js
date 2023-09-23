@@ -12,11 +12,11 @@ export default {
   palette,
   fonts: {
     header: {
-      bold: { fontSize: 20, fontFamily: 'Raleway Semibold',
+      bold: { fontSize: 18, fontFamily: 'Raleway Semibold',
         color: palette.headerText },
     },
     h2: {
-      bold: { fontSize: 15, fontFamily: 'Open Sans Bold',
+      bold: { fontSize: 14, fontFamily: 'Open Sans Bold',
         color: palette.headerText },
     },
     body: {
@@ -26,9 +26,9 @@ export default {
         color: palette.accent1 },
     },
     detail: {
-      regular: { fontSize: 9.5, fontFamily: 'Open Sans',
+      regular: { fontSize: 9, fontFamily: 'Open Sans',
         color: palette.text },
-      bold: { fontSize: 9.5, fontFamily: 'Open Sans Bold',
+      bold: { fontSize: 9, fontFamily: 'Open Sans Bold',
         color: palette.accent1 },
     },
   },
