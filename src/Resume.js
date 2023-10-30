@@ -27,7 +27,8 @@ const ResumeExperience = () => (
     <SectionHeader text="Technical Experience" />
     <Experience title="Blip Labs - Full Stack Engineer" startDate="August 2019">
       <ListItem>
-        Leading development of several projects (full stack applications, ML pipelines, API products, etc.) to help streamline bill pay.
+        Leading development of several projects (full stack applications, ML
+        pipelines, API products, etc.) to help streamline bill pay.
       </ListItem>
       <ListItem>
         Using React Native, Node.js, Next.js, Python for ML models, and
@@ -82,7 +83,8 @@ const OtherExperience = () => (
       <ListItem>
         Leading software and electronics team for SBUDNIC CubeSat mission aiming
         to redefine how quickly a satellite can be built using terrestrial,
-        off-the-shelf parts (see <Link src="sbudnic.netlify.app">sbudnic.netlify.app</Link>)
+        off-the-shelf parts (see{" "}
+        <Link src="sbudnic.netlify.app">sbudnic.netlify.app</Link>)
       </ListItem>
     </Experience>
     <Experience title="Brown Running Club - Captain">
@@ -91,9 +93,7 @@ const OtherExperience = () => (
         for $10,000+ budget
       </ListItem>
     </Experience>
-    <Experience
-      title="Orange Guava Passion - Alto Saxophone"
-    >
+    <Experience title="Orange Guava Passion - Alto Saxophone">
       <ListItem>
         Shared management responsibilities and played saxophone in student band.
         Amassed over two million Spotify streams and frequently paid $400+ to
@@ -189,7 +189,12 @@ const ProjectExperience = () => (
     </Experience>
     <Experience title="Jacosta the Skoolie">
       <ListItem>
-        Converted a school bus to an RV, completing numerous carpentry, electrical, plumbing, and other projects (see <Link src="https://www.instagram.com/jacosta.skoolie/">our instagram</Link>).
+        Converted a school bus to an RV, completing numerous carpentry,
+        electrical, plumbing, and other projects (see{" "}
+        <Link src="https://www.instagram.com/jacosta.skoolie/">
+          our instagram
+        </Link>
+        ).
       </ListItem>
       {/* <ListItem>
         Collected thousands of GPS routes from members of the Brown Running Club
@@ -246,8 +251,8 @@ const Skills = () => (
   <View wrap={false}>
     <SectionHeader text="Skills and Interests" />
     <Blurb title="Programming languages and technologies">
-      Python, C, C++, C#, Java, Racket, JavaScript, MATLAB, HTML/CSS, jQuery,
-      React, React Native, Django, Pyret, SQL, AWS, Unity, ROS
+      Python, C, C++, C#, Java, Racket, TypeScript, MATLAB, HTML/CSS, jQuery,
+      React, Docker, React Native, Django, Pyret, SQL, AWS, Unity, ROS
     </Blurb>
     <Blurb title="Other skills">
       graphic design, 2D and 3D CAD (Autodesk Inventor), robotics, 3D printing
