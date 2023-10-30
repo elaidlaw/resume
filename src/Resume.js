@@ -27,8 +27,7 @@ const ResumeExperience = () => (
     <SectionHeader text="Technical Experience" />
     <Experience title="Blip Labs - Full Stack Engineer" startDate="August 2019">
       <ListItem>
-        Leading development of several projects to help streamline the bill
-        payment process.
+        Leading development of several projects (full stack applications, ML pipelines, API products, etc.) to help streamline bill pay.
       </ListItem>
       <ListItem>
         Using React Native, Node.js, Next.js, Python for ML models, and
@@ -190,7 +189,7 @@ const ProjectExperience = () => (
     </Experience>
     <Experience title="Jacosta the Skoolie">
       <ListItem>
-        Converted a school bus to an RV, completing numerous carpentry, electrical, plumbing, and other projects (See <Link src="https://www.instagram.com/jacosta.skoolie/">our instagram</Link>).
+        Converted a school bus to an RV, completing numerous carpentry, electrical, plumbing, and other projects (see <Link src="https://www.instagram.com/jacosta.skoolie/">our instagram</Link>).
       </ListItem>
       {/* <ListItem>
         Collected thousands of GPS routes from members of the Brown Running Club
@@ -231,7 +230,7 @@ const Education = () => (
       startDate="August 2018"
       endDate="December 2022"
     >
-      <ListItem>ScB in Computer Science</ListItem>
+      <ListItem>ScB in Computer Science with honors</ListItem>
     </Experience>
     {/* <Blurb title="Relevant Coursework">
       Accelerated Intro to CS, Computer Vision, Design of Robotic Systems, Intro
